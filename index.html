@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Motors | Premium Car Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background video -->
+    <div class="video-bg">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="https://assets.mixkit.co/videos/7920/7920-720.mp4" type="video/mp4">
+            <source src="https://assets.mixkit.co/videos/52427/52427-720.mp4" type="video/mp4">
+            <source src="https://assets.mixkit.co/videos/24481/24481-720.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">V<span>ELOCITY</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#models">Models</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="cta-btn">Book Test Drive</button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line1">DRIVE</span>
+                <span class="line2">THE FUTURE</span>
+            </h1>
+            <p class="hero-sub">Premium sports cars. Zero compromise. Pure adrenaline.</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary">Explore Models</button>
+                <button class="btn btn-outline">Watch Showroom</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+        </div>
+    </section>
+
+    <!-- Models -->
+    <section class="models" id="models">
+        <h2 class="section-title">Our <span>Collection</span></h2>
+        <div class="models-grid">
+            <div class="car-card">
+                <div class="car-img car-1"></div>
+                <h3>GT Phantom</h3>
+                <p>650 HP · 0-100 in 3.2s</p>
+                <button class="btn btn-card">$189,000</button>
+            </div>
+            <div class="car-card">
+                <div class="car-img car-2"></div>
+                <h3>Turbo Falcon</h3>
+                <p>720 HP · 0-100 in 2.9s</p>
+                <button class="btn btn-card">$215,000</button>
+            </div>
+            <div class="car-card">
+                <div class="car-img car-3"></div>
+                <h3>Night Racer</h3>
+                <p>580 HP · 0-100 in 3.5s</p>
+                <button class="btn btn-card">$164,000</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" id="features">
+        <div class="stat">
+            <span class="stat-num" data-target="2500">0</span>
+            <span class="stat-label">Cars Delivered</span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-target="15">0</span>
+            <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-target="99">0</span>
+            <span class="stat-label">Happy Clients %</span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-target="40">0</span>
+            <span class="stat-label">Exclusive Models</span>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <h2 class="section-title">Showroom <span>Gallery</span></h2>
+        <div class="gallery-grid">
+            <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600')"></div>
+            <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=600')"></div>
+            <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=600')"></div>
+            <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600')"></div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Tell us about your dream car..." rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Velocity Motors. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
